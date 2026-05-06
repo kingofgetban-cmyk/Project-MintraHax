@@ -2,7 +2,7 @@
   "news_title": "📢 แจ้งอัปเดตระบบ",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้...",
   
-  "bypass_login": false,
+  "bypass_login": true,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราว",
   
