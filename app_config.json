@@ -1,6 +1,6 @@
 {
   "news_title": "📢 แจ้งอัปเดตระบบ",
-  "news_content": "เนื้อหาข่าวสารที่ต้องการแสดง...",
+  "news_content": "เนื้อหาข่าวสารที่ต้องการแสดงในแอป...",
   
   "bypass_login": false,
   "maintenance_mode": false,
@@ -10,5 +10,8 @@
   "df_msg": "Delta Force กำลังอัปเดต Lib ใหม่เพื่อรองรับ Patch เกมล่าสุดครับ",
   
   "disable_ab": false,
-  "ab_msg": "Arena Breakout ปิดปรับปรุงระบบพรางตัวชั่วคราว"
+  "ab_msg": "Arena Breakout ปิดปรับปรุงระบบพรางตัวชั่วคราว",
+
+  "security_protection_enabled": true,
+  "vpn_protection_enabled": true
 }
