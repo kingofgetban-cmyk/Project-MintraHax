@@ -1,8 +1,9 @@
+
 {
   "news_title": "📢 แจ้งอัปเดตระบบ",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้...",
   
-  "bypass_login": false,
+  "bypass_login": true,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราว",
   
@@ -14,5 +15,13 @@
   
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
-  "emulator_check_enabled": true
+  "emulator_check_enabled": true,
+
+  "payloads_df": [
+    { "name": "payload_df.so", "url": "https://.../lib1.so" },
+    { "name": "data_df.dat", "url": "https://.../data.dat" }
+  ],
+  "payloads_ab": [
+    { "name": "payload_ab.so", "url": "https://.../lib_ab.so" }
+  ]
 }
