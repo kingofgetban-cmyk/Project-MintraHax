@@ -1,27 +1,39 @@
 
 {
-  "news_title": "📢 แจ้งอัปเดตระบบ",
-  "news_content": "เพิ่มระบบใหม่แล้ววันนี้...",
+  "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
+  "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
   
-  "bypass_login": false,
+  "bypass_login": true,
   "maintenance_mode": false,
-  "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราว",
+  "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์",
   
   "disable_df": false,
-  "df_msg": "Delta Force กำลังอัปเดต...",
+  "df_msg": "Delta Force กำลังอัปเดตระบบป้องกันการแบน...",
   
   "disable_ab": false,
-  "ab_msg": "Arena Breakout กำลังอัปเดต...",
+  "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
   
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
 
+  "native_watchdog_enabled": true,
+  "syscall_security_enabled": true,
+  "api_check_enabled": true,
+  "security_check_interval": 2,
+  "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
+  "syscall_security_key": "VCORE_SEC_KEY_2024",
+  "dynamic_secure_key": "HEZ_SECURE_DYNAMIC_2024",
+
+  "watchdog_status": "0xAE",
+  "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
+  "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
+  
   "payloads_df": [
-    { "name": "payload_df.so", "url": "https://.../lib1.so" },
-    { "name": "data_df.dat", "url": "https://.../data.dat" }
+    { "name": "payload_df.so", "url": "https://your-storage.com/lib1.so" },
+    { "name": "data_df.dat", "url": "https://your-storage.com/data.dat" }
   ],
   "payloads_ab": [
-    { "name": "payload_ab.so", "url": "https://.../lib_ab.so" }
+    { "name": "payload_ab.so", "url": "https://your-storage.com/lib_ab.so" }
   ]
 }
