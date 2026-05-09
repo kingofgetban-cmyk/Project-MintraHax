@@ -23,8 +23,8 @@
   "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
 
   "native_watchdog_enabled": true,
-  "syscall_security_enabled": true,
-  "api_check_enabled": true,
+  "syscall_security_enabled": false,
+  "api_check_enabled": false,
   "security_check_interval": 2,
   "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
   "syscall_security_key": "VCORE_SEC_KEY_2024",
