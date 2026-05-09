@@ -12,7 +12,7 @@
   "disable_ab": false,
   "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
   
-  "security_protection_enabled": false,
+  "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
 
