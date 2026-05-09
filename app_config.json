@@ -1,4 +1,3 @@
-
 {
   "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
@@ -17,6 +16,12 @@
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
 
+  "signature_check_enabled": false,
+  "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
+
+  "dex_check_enabled": false,
+  "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
+
   "native_watchdog_enabled": true,
   "syscall_security_enabled": true,
   "api_check_enabled": true,
@@ -26,8 +31,6 @@
   "dynamic_secure_key": "HEZ_SECURE_DYNAMIC_2024",
 
   "watchdog_status": "0xAE",
-  "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
-  "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
   
   "payloads_df": [
     { "name": "payload_df.so", "url": "https://your-storage.com/lib1.so" },
