@@ -2,7 +2,7 @@
   "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
   
-  "bypass_login": false,
+  "bypass_login": true,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
   
