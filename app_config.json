@@ -2,7 +2,7 @@
   "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
   
-  "bypass_login": true,
+  "bypass_login": false,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
   
@@ -11,7 +11,7 @@
   "disable_df": false,
   "df_msg": "Delta Force กำลังอัปเดตระบบป้องกันการแบน...",
   
-  "disable_ab": false,
+  "disable_ab": true,
   "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
   
   "security_protection_enabled": true,
@@ -24,7 +24,7 @@
   "dex_check_enabled": false,
   "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
 
-  "native_watchdog_enabled": false,
+  "native_watchdog_enabled": true,
   "syscall_security_enabled": false,
   "api_check_enabled": false,
   "security_check_interval": 2,
