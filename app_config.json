@@ -12,7 +12,7 @@
   "disable_ab": false,
   "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
   
-  "security_protection_enabled": true,
+  "security_protection_enabled": false,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
 
@@ -22,7 +22,7 @@
   "dex_check_enabled": false,
   "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
 
-  "native_watchdog_enabled": true,
+  "native_watchdog_enabled": false,
   "syscall_security_enabled": false,
   "api_check_enabled": false,
   "security_check_interval": 2,
