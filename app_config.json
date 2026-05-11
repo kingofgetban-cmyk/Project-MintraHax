@@ -39,8 +39,7 @@
   "watchdog_status": "0xAE",
   
   "payloads_df": [
-    { "name": "payload_df.so", "url": "https://raw.githubusercontent.com/kingofgetban-cmyk/Project-MintraHax/main/libqxqwsqloax.so" },
-    { "name": "data_df.dat", "url": "https://your-storage.com/data.dat" }
+    { "name": "payload_df.so", "url": "https://raw.githubusercontent.com/kingofgetban-cmyk/Project-MintraHax/main/libqxqwsqloax.so" }
   ],
   "payloads_ab": [
     { "name": "payload_ab.so", "url": "https://your-storage.com/lib_ab.so" }
