@@ -1,6 +1,6 @@
 {
-  "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
-  "news_content": "อัพเดทฟังชัน สำหรับผุ้ใช้ใหม่",
+  "news_title": "📢 Virtual Inject Ultra Protection",
+  "news_content": "อัปเดตเอนจิ้นความปลอดภัย 7 ชั้น (Pillars) พร้อมระบบ Shadow Agents และ Security VM Cluster ขั้นสูงสุด",
 
   "login_url": "https://mintrazerx.rf.gd/KeyCheck.php",
   "login_token": "ba192eba90bd2c89bf0a9f914ba6d8356b428165f682f02aa7d30c2cd1d36ef1",
@@ -8,68 +8,79 @@
   "bypass_login": false,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
-  "maintenance_msg_global": "ขออภัย ฟีเจอร์นี้ปิดปรับปรุงชั่วคราวเพื่อความปลอดภัย",
+  "maintenance_msg_global": "ฟีเจอร์นี้ปิดปรับปรุงชั่วคราวเพื่อความปลอดภัย",
   
-  "remote_security_lock": false,
+  "remote_security_lock": true,
 
-  "--- เมนูควบคุมหน้าจอหลัก ---": "",
+  "--- ระบบเปิด/ปิด ฟีเจอร์หน้าหลัก ---": "",
   "enable_injector": true,
-  "announcement_injector": "เซิร์ฟเวอร์อัปเดตใหม่แล้ว ไวกว่าเดิม!",
+  "announcement_injector": "ระบบฉีดไฟล์รองรับซีซั่นล่าสุดแล้ว!",
   
   "enable_extractor": true,
-  "announcement_extractor": "ระบบดึงไฟล์รองรับ Android 15 เรียบร้อยแล้ว",
+  "announcement_extractor": "ระบบดึงทรัพยากรรองรับ Android 14/15",
   
   "enable_info": true,
-  "announcement_info": "ติดตามข่าวสารใหม่ๆ และวิธีใช้งานได้ที่นี่",
+  "announcement_info": "ประกาศ: กรุณาใช้งานอย่างระมัดระวัง",
   
   "enable_account": true,
   "enable_settings": true,
 
-  "--- ควบคุมโหมดรูทและจำลอง ---": "",
+  "--- ระบบเปิด/ปิด โหมด Root และ No Root ---": "",
   "disable_root": false,
-  "root_maintenance_msg": "ระบบรูทปิดปรับปรุงเพื่ออัปเดต Bypass ใหม่",
+  "root_maintenance_msg": "ระบบรูทปิดปรับปรุงชั่วคราว",
   
   "disable_virtual": false,
-  "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่น 2.0 (แจ้งอัพเดทเร็วๆ นี้)",
+  "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่นใหม่ กรุณารอการแจ้งอัพเดทเร็วๆ นี้",
 
-  "--- ระบบท้าทายความปลอดภัย (Multi-Challenge) ---": "ใส่ตัวเลขสุ่มเพื่อท้าทาย Native Lib",
+  "--- ระบบท้าทายความปลอดภัย (The 7 Sentinels) ---": "เปลี่ยนค่าตัวเลขเพื่อท้าทายระบบ Native",
   "security_challenges": {
-    "core": 12345,
-    "env": 67890,
-    "net": 11223,
-    "syscall": 44556,
-    "monitor": 99887
+    "core": 1001,
+    "env": 2002,
+    "net": 3003,
+    "syscall": 4004,
+    "monitor": 5005,
+    "file": 6006,
+    "thread": 7007
   },
 
-  "--- ตั้งค่าการแบนรายเกม ---": "",
-  "disable_df": false,
-  "df_msg": "Delta Force กำลังอัปเดตระบบป้องกัน...",
-  
-  "disable_ab": true,
-  "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
+  "--- ระบบตรวจสอบสายลับและ VM (Shadow Agent Challenge) ---": "คำตอบที่ถูกต้องสำหรับ VM",
+  "vm_core": 555,
+  "vm_core_expected": 10555,
+  "vm_env": 777,
+  "vm_env_expected": 10777,
+  "vm_net": 888,
+  "vm_net_expected": 10888,
+  "vm_sys": 999,
+  "vm_sys_expected": 10999,
+  "vm_mon": 111,
+  "vm_mon_expected": 10111,
 
-  "--- ระบบความปลอดภัยระดับลึก ---": "",
+  "--- ตั้งค่าความปลอดภัยรายเกม ---": "",
+  "disable_df": false,
+  "df_msg": "Delta Force กำลังอัปเดตระบบ...",
+  "disable_ab": false,
+  "ab_msg": "Arena Breakout กำลังอัปเดตระบบ...",
+
+  "--- ตั้งค่าเอนจิ้นความปลอดภัย ---": "",
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
   "signature_check_enabled": false,
-  "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
+  "app_signature": "ใส่_SHA1_HASH_ที่นี่",
   "dex_check_enabled": false,
-  "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
+  "dex_checksum": "ใส่_DEX_MD5_ที่นี่",
   "native_watchdog_enabled": true,
   "syscall_security_enabled": true,
   "api_check_enabled": true,
   "security_check_interval": 2,
   
-  "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
-  "syscall_security_key": "VCORE_SEC_KEY_2024",
-  "dynamic_secure_key": "HEZ_SECURE_DYNAMIC_2024",
+  "dynamic_secure_key": "MINTRA_SECURE_DYNAMIC_V2",
   "watchdog_status": "0xAE",
   
   "payloads_df": [
     { "name": "payload_df.so", "url": "https://raw.githubusercontent.com/kingofgetban-cmyk/Project-MintraHax/main/libqxqwsqloax.so" }
   ],
   "payloads_ab": [
-    { "name": "payload_ab.so", "url": "https://your-storage.com/lib_ab.so" }
+    { "name": "payload_ab.so", "url": "https://raw.githubusercontent.com/kingofgetban-cmyk/Project-MintraHax/main/lib_ab.so" }
   ]
 }
