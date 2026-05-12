@@ -1,16 +1,34 @@
 {
   "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
   "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
-
-   "login_url": "https://mintrazerx.rf.gd/KeyCheck.php",
+  "login_url": "https://mintrazerx.rf.gd/KeyCheck.php",
   "login_token": "ba192eba90bd2c89bf0a9f914ba6d8356b428165f682f02aa7d30c2cd1d36ef1",
   
   "bypass_login": false,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
+  "maintenance_msg_global": "ฟีเจอร์นี้ปิดปรับปรุงชั่วคราว ขออภัยในความไม่สะดวก",
   
   "remote_security_lock": false,
   
+  "enable_injector": true,
+  "announcement_injector": "เซิร์ฟเวอร์อัปเดตใหม่แล้ว ไวกว่าเดิม!",
+  
+  "enable_extractor": true,
+  "announcement_extractor": "ระบบดึงไฟล์รองรับ Android 15 เรียบร้อยแล้ว",
+  
+  "enable_info": true,
+  "announcement_info": "ติดตามข่าวสารใหม่ๆ ได้ที่นี่",
+  
+  "enable_account": true,
+  "enable_settings": true,
+
+  "disable_root": false,
+  "root_maintenance_msg": "ระบบรูทปิดปรับปรุงเพื่อความปลอดภัย",
+  
+  "disable_virtual": false,
+  "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่นใหม่ กรุณารอการแจ้งอัพเดทเร็วๆ นี้",
+
   "disable_df": false,
   "df_msg": "Delta Force กำลังอัปเดตระบบป้องกันการแบน...",
   
@@ -20,10 +38,8 @@
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
-
   "signature_check_enabled": false,
   "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
-
   "dex_check_enabled": false,
   "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
 
@@ -35,12 +51,6 @@
   "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
   "syscall_security_key": "VCORE_SEC_KEY_2024",
   "dynamic_secure_key": "HEZ_SECURE_DYNAMIC_2024",
-
-  "disable_root": false,
-  "disable_virtual": true,
-  "root_maintenance_msg": "ระบบ Root ปิดปรับปรุงเพื่อความปลอดภัย",
-  "virtual_maintenance_msg": "ระบบจำลองกำลังอัปเดตเอนจิ้นใหม่"
-  
   "watchdog_status": "0xAE",
   
   "payloads_df": [
