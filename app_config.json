@@ -36,6 +36,11 @@
   "syscall_security_key": "VCORE_SEC_KEY_2024",
   "dynamic_secure_key": "HEZ_SECURE_DYNAMIC_2024",
 
+  "disable_root": false,
+  "disable_virtual": true,
+  "root_maintenance_msg": "ระบบ Root ปิดปรับปรุงเพื่อความปลอดภัย",
+  "virtual_maintenance_msg": "ระบบจำลองกำลังอัปเดตเอนจิ้นใหม่"
+  
   "watchdog_status": "0xAE",
   
   "payloads_df": [
