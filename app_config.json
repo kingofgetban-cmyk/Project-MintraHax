@@ -1,16 +1,18 @@
 {
   "news_title": "📢 แจ้งอัปเดตระบบ Virtual Inject",
-  "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย ล่าสุดสำหรับ DF และ AB",
+  "news_content": "เพิ่มระบบใหม่แล้ววันนี้: อัปเดตเอนจิ้นความปลอดภัย 5 ชั้น (Sentinels) และระบบพรางข้อมูล HEZWIN ขั้นสูงสุด",
+
   "login_url": "https://mintrazerx.rf.gd/KeyCheck.php",
   "login_token": "ba192eba90bd2c89bf0a9f914ba6d8356b428165f682f02aa7d30c2cd1d36ef1",
   
   "bypass_login": false,
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
-  "maintenance_msg_global": "ฟีเจอร์นี้ปิดปรับปรุงชั่วคราว ขออภัยในความไม่สะดวก",
+  "maintenance_msg_global": "ขออภัย ฟีเจอร์นี้ปิดปรับปรุงชั่วคราวเพื่อความปลอดภัย",
   
   "remote_security_lock": false,
-  
+
+  "--- เมนูควบคุมหน้าจอหลัก ---": "",
   "enable_injector": true,
   "announcement_injector": "เซิร์ฟเวอร์อัปเดตใหม่แล้ว ไวกว่าเดิม!",
   
@@ -18,23 +20,35 @@
   "announcement_extractor": "ระบบดึงไฟล์รองรับ Android 15 เรียบร้อยแล้ว",
   
   "enable_info": true,
-  "announcement_info": "ติดตามข่าวสารใหม่ๆ ได้ที่นี่",
+  "announcement_info": "ติดตามข่าวสารใหม่ๆ และวิธีใช้งานได้ที่นี่",
   
   "enable_account": true,
   "enable_settings": true,
 
+  "--- ควบคุมโหมดรูทและจำลอง ---": "",
   "disable_root": false,
-  "root_maintenance_msg": "ระบบรูทปิดปรับปรุงเพื่อความปลอดภัย",
+  "root_maintenance_msg": "ระบบรูทปิดปรับปรุงเพื่ออัปเดต Bypass ใหม่",
   
   "disable_virtual": false,
-  "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่นใหม่ กรุณารอการแจ้งอัพเดทเร็วๆ นี้",
+  "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่น 2.0 (แจ้งอัพเดทเร็วๆ นี้)",
 
+  "--- ระบบท้าทายความปลอดภัย (Multi-Challenge) ---": "ใส่ตัวเลขสุ่มเพื่อท้าทาย Native Lib",
+  "security_challenges": {
+    "core": 12345,
+    "env": 67890,
+    "net": 11223,
+    "syscall": 44556,
+    "monitor": 99887
+  },
+
+  "--- ตั้งค่าการแบนรายเกม ---": "",
   "disable_df": false,
-  "df_msg": "Delta Force กำลังอัปเดตระบบป้องกันการแบน...",
+  "df_msg": "Delta Force กำลังอัปเดตระบบป้องกัน...",
   
   "disable_ab": true,
   "ab_msg": "Arena Breakout กำลังปรับปรุงระบบฉีดไฟล์...",
-  
+
+  "--- ระบบความปลอดภัยระดับลึก ---": "",
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
@@ -42,10 +56,9 @@
   "app_signature": "ใส่_SHA1_HASH_จริงที่นี่",
   "dex_check_enabled": false,
   "dex_checksum": "ใส่_DEX_MD5_จริงที่นี่",
-
   "native_watchdog_enabled": true,
-  "syscall_security_enabled": false,
-  "api_check_enabled": false,
+  "syscall_security_enabled": true,
+  "api_check_enabled": true,
   "security_check_interval": 2,
   
   "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
