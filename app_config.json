@@ -75,6 +75,9 @@
   "security_check_interval": 2,
   
   "dynamic_secure_key": "MINTRA_SECURE_DYNAMIC_V2",
+  "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
+  "syscall_security_key": "VCORE_SEC_KEY_2024",
+  
   "watchdog_status": "0xAE",
   
   "payloads_df": [
