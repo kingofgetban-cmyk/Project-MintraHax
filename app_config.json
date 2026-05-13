@@ -1,38 +1,56 @@
 {
   "news_title": "📢 Virtual Inject Ultra Protection",
   "news_content": "อัปเดตความปลอดภัย เเละ ความสมบูรณ์ของฟังชัน",
-
   "login_url": "https://mintrazerx.rf.gd/KeyCheck.php",
   "login_token": "ba192eba90bd2c89bf0a9f914ba6d8356b428165f682f02aa7d30c2cd1d36ef1",
-  
   "bypass_login": false,
+
+  "server_config": {
+    "version": "1.0.2",
+    "status": "ACTIVE",
+    "global_lock": false,
+    "maintenance": false,
+    "kill_switch": false,
+    "security_level": 5
+  },
+
+  "auth_validation": {
+    "challenge_key": "0xCAFEBABE",
+    "heartbeat_interval": 30,
+    "enforce_integrity": true,
+    "max_retry": 3
+  },
+
   "maintenance_mode": false,
   "maintenance_msg": "ระบบกำลังปิดปรับปรุงชั่วคราวเพื่ออัปเดตเซิร์ฟเวอร์ กรุณาลองใหม่ภายหลัง",
   "maintenance_msg_global": "ฟีเจอร์นี้ปิดปรับปรุงชั่วคราวเพื่อความปลอดภัย",
-  
-  "remote_security_lock": true,
+  "remote_security_lock": false,
 
-  "--- ระบบเปิด/ปิด ฟีเจอร์หน้าหลัก ---": "",
-  "enable_injector": true,
+  "features_gate": {
+    "injector": true,
+    "extractor": true,
+    "root_bypass": true,
+    "virtual_core": true,
+    "proxy_module": true,
+    "hook_engine": true,
+    "anti_debug": true,
+    "integrity_check": true,
+    "memory_scanner": true,
+    "dump_protection": true
+  },
+
+  "--- ระบบประกาศข่าวสารรายฟีเจอร์ ---": "",
   "announcement_injector": "ระบบฉีดไฟล์รองรับซีซั่นล่าสุดแล้ว!",
-  
-  "enable_extractor": true,
   "announcement_extractor": "ระบบดึงทรัพยากรรองรับ Android 14/15",
-  
-  "enable_info": true,
   "announcement_info": "ประกาศ: กรุณาใช้งานอย่างระมัดระวัง",
-  
-  "enable_account": true,
-  "enable_settings": true,
 
-  "--- ระบบเปิด/ปิด โหมด Root และ No Root ---": "",
+  "--- ระบบจัดการโหมด Root / Virtual ---": "",
   "disable_root": false,
   "root_maintenance_msg": "ระบบรูทปิดปรับปรุงชั่วคราว",
-  
   "disable_virtual": false,
   "virtual_maintenance_msg": "กำลังอัปเดตเอนจิ้นจำลองเวอร์ชั่นใหม่ กรุณารอการแจ้งอัพเดทเร็วๆ นี้",
 
-  "--- ระบบท้าทายความปลอดภัย (The 7 Sentinels) ---": "เปลี่ยนค่าตัวเลขเพื่อท้าทายระบบ Native",
+  "--- ระบบท้าทายความปลอดภัย (The 7 Sentinels) ---": "",
   "security_challenges": {
     "core": 1001,
     "env": 2002,
@@ -43,7 +61,7 @@
     "thread": 7007
   },
 
-  "--- ระบบตรวจสอบสายลับและ VM (Shadow Agent Challenge) ---": "คำตอบที่ถูกต้องสำหรับ VM",
+  "--- ระบบตรวจสอบ VM (Shadow Agent Challenge) ---": "",
   "vm_core": 555,
   "vm_core_expected": 10555,
   "vm_env": 777,
@@ -61,23 +79,28 @@
   "disable_ab": false,
   "ab_msg": "Arena Breakout กำลังอัปเดตระบบ...",
 
-  "--- ตั้งค่าเอนจิ้นความปลอดภัย ---": "",
+  "--- ตั้งค่าเอนจิ้นความปลอดภัยขั้นสูง ---": "",
   "security_protection_enabled": true,
   "vpn_protection_enabled": true,
   "emulator_check_enabled": true,
   "signature_check_enabled": false,
-  "app_signature": "ใส่_SHA1_HASH_ที่นี่",
   "dex_check_enabled": false,
-  "dex_checksum": "ใส่_DEX_MD5_ที่นี่",
   "native_watchdog_enabled": true,
   "syscall_security_enabled": true,
   "api_check_enabled": true,
   "security_check_interval": 2,
-  
+
+  "security_payload": {
+    "allowed_signatures": ["47:61:33:2D:ED:CB:A9:87"],
+    "blocked_pids": ["com.android.vending.billing"],
+    "checksum_salt": "HEZWIN_SECRET_2024",
+    "app_signature": "ใส่_SHA1_HASH_ที่นี่",
+    "dex_checksum": "ใส่_DEX_MD5_ที่นี่"
+  },
+
   "dynamic_secure_key": "MINTRA_SECURE_DYNAMIC_V2",
   "native_watchdog_key": "MINTRA_NATIVE_SECURE_V1",
   "syscall_security_key": "VCORE_SEC_KEY_2024",
-  
   "watchdog_status": "0xAE",
   
   "payloads_df": [
